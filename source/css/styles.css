@@ -7,8 +7,32 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fdfff9;
+    position:relative;
+    /*padding-bottom: 30px;*/
+}
+
+footer {
+    position: absolute;
+    /*left: 0 ; right: 0; bottom: 0;*/
+    /*padding: 50px 0;*/
+    /*height: 30px;*/
+
+    text-align: center;
+    color: #baac9d;
+    font-weight: 100;
+    line-height: 70%;
+    font-size: 0.75em;
+}
+
+.footer-info {
 }
 
 p {
@@ -20,18 +44,24 @@ form {
 	margin: 0 auto;
 }
 
+a:hover {
+    color: #647eed !important;
+    text-decoration: none;
+}
+
 button {
-    color: #777;
+    color: black;
     background: #fff;
     padding: 4px 12px 4px 12px;
     border: solid #777 2px;
+    /*border: pink;*/
     transition: all 0.3s ease-in-out;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 button:hover {
-    color: #000;
+    color: #647eed;
     border: solid #000 2px;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -61,13 +91,13 @@ input:focus, textarea:focus {
 }
 
 .portfolio-content a {
-	color: #333;
+	color: #555;
 	text-decoration: none;
 	border-bottom: 1px solid #bbb;
 }
 
 .portfolio-content a:hover {
-	color: #000;
+	color: #647eed;
 	text-decoration: none;
 	border-bottom: 1px solid #555;
 }
@@ -81,21 +111,30 @@ h1, h2, h3 {
 
 .navbar-brand {
     font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 800;
 	font-size: 1.5rem;
 	letter-spacing: 0.5px;
 }
 
+.navbar-brand:hover {
+    color: #647eed !important;
+}
+
 .navbar {
     font-family: 'Source Sans Pro', sans-serif;
-	text-transform: uppercase;
 }
 
 .nav-item {
     font-family: 'Source Sans Pro', sans-serif;
-	font-size: 0.8rem;
-	font-weight: 300;
+	font-size: 1rem;
 	letter-spacing: 1.5px;
+}
+
+.nav-item a {
+    color: black !important;
+}
+
+.nav-item a:hover {
+    color: #647eed !important;
 }
 
 .navbar-toggler {
